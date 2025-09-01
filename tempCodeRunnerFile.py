@@ -1,4 +1,3 @@
-"hy"
-# print(id(a))
-# a = a+ "there"
-# print(id(a
+
+#     pass
+# print(type(func))
