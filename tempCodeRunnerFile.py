@@ -1,3 +1,5 @@
+t("enter ur age:")
+# print(type(age))
 
-#     pass
-# print(type(func))
+# age = int(age)
+# print(type(age))
