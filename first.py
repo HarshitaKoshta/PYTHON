@@ -78,6 +78,45 @@
 # print(f"hello, {name}")
 
 
-for i in range(1, 11):
-    print(f"2 x {i} = {2 * i}")
+# for i in range(1, 11):
+#     print(f"2 x {i} = {2 * i}")
 
+
+# isPrime = True
+
+# for i in range(2, n):
+#     if n % i == 0:
+#         isPrime = False
+#         break
+
+# if isPrime:
+#     print(" a prime number")
+# else:
+#     print("not a prime number")
+
+# (isPrime)
+
+# for i in range(0, n+1):
+#     if(i%2==0):
+#         print(i)
+
+# for i in range(1, n+1,2):
+#     print(i)
+
+# n = 10
+
+# sum=0
+# for i in range(n):
+#     sum+=  n
+
+# print(sum)  
+  
+
+a = 0
+b = 1
+for i in range(20):
+    print(a)
+    temp = a + b
+    a = b
+    b = temp
+    
