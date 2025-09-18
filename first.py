@@ -112,11 +112,62 @@
 # print(sum)  
   
 
-a = 0
-b = 1
-for i in range(20):
-    print(a)
-    temp = a + b
-    a = b
-    b = temp
+# a = 0
+# b = 1
+# for i in range(20):
+#     print(a)
+#     temp = a + b
+#     a = b
+#     b = temp
     
+
+# n =123
+# t =0
+# for dig in str(n):
+#     t += int(dig)
+# print(t)    
+
+# rev a str
+# txt = "i am harshita"
+# rev = " "
+# for i in txt:
+#     rev = i + rev
+# print(rev)    
+
+# n =4
+# f =1
+# for i in range(1,n+1):
+#     f*=i
+# print(f)
+
+# text = "hello hyee"
+# vow = "aeiouAEIOU"
+# vc =0
+# cc =0
+# for ch in text:
+#     if ch.isalpha():
+#         if ch in vow:
+#             vc += 1
+#         else:
+#             cc += 1
+# print("vowel:",vc, ",consonant:",cc)           
+
+# for i in range(1,11):
+#     for j in range(1,11):
+#         print(i,"x",j,"=",i*j)
+
+# num = [13,243,24,1,33,4]  
+# larg = num[0]
+# for n in num:
+#     if n>larg:
+#       larg = n      
+# print(larg)    
+
+# check prime
+num = 20
+is_prime = True
+for i in range(2,num):
+    if num%i == 0:
+        is_prime = False
+        break
+print(num,"is prime?",is_prime)    
