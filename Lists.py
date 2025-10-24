@@ -13,11 +13,30 @@ student = ["pihu",89,20,"jabalpur"]
 # print(student[0:3])
 
 student.append("English")
-print(student)
-list=[56,2,79,2,0]
+# print(student)
+list=[0,1,2,1,0]
 #list.sort(reverse=True) #des sort
 # list.reverse()
 # list.insert(2,6)
-list.remove(2)
-list.pop(3)
-print(list)
+# list.remove(2)
+# list.pop(3)
+# print(list)
+
+
+# m1 = input("enter fav movie 1:")
+# m2 = input("enter fav movie 2:")
+# m3 = input("enter fav movie 3:")
+
+# movies = []
+# movies.append(m1)
+# movies.append(m2)
+# movies.append(m3)
+# print(movies)
+
+
+nlist = list.copy()
+nlist.reverse()
+if(list == nlist):
+    print("palindrome")
+else:
+    print("not ")   
