@@ -21,4 +21,12 @@ student = {
         "chemistry" : 84
     }
 }
-print(student["subj"]["maths"])
+# print(student["subj"]["maths"])
+
+# print(list(student.keys()))
+# print(student.values())
+# print(student.items())
+
+
+student.update({"name":"pihu","city":"jabalpur","age":20})
+print(student)
