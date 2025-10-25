@@ -1,2 +1,2 @@
-))
-# print(student.values())
+"pihu","city":"jabalpur","age":20})
+# print(student)

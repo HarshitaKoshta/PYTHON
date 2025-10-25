@@ -13,14 +13,14 @@
 # print(info["age"])
 
 
-student = {
-    "name" : "rahul",
-    "subj" : {
-        "english" : 78,
-        "maths" : 97,
-        "chemistry" : 84
-    }
-}
+# student = {
+#     "name" : "rahul",
+#     "subj" : {
+#         "english" : 78,
+#         "maths" : 97,
+#         "chemistry" : 84
+#     }
+# }
 # print(student["subj"]["maths"])
 
 # print(list(student.keys()))
@@ -28,5 +28,18 @@ student = {
 # print(student.items())
 
 
-student.update({"name":"pihu","city":"jabalpur","age":20})
-print(student)
+# student.update({"name":"pihu","city":"jabalpur","age":20})
+# print(student)
+
+
+marks = {}
+x = int(input("enter phy : "))
+marks.update({"phy": x})
+
+x = int(input("enter chem : "))
+marks.update({"chem": x})
+
+x = int(input("enter math : "))
+marks.update({"math": x})
+
+print(marks)
