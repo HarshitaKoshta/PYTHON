@@ -24,3 +24,6 @@ dict = {
     "table" : ["a piece of furniture", "list of figures"]
 }
 print(dict)
+
+subjects = {"python","java","c++","python","javascript","c++","c","java","python"}
+print(len(subjects))
