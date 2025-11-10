@@ -70,10 +70,10 @@
 # print(listt)
 
 
-li = ['mango','apple','grapes','pineapple','banana']
+# li = ['mango','apple','grapes','pineapple','banana']
 
-for i in li:
-    print(i.upper())
+# for i in li:
+#     print(i.upper())
     
 # num = [21,2,6,5,9]
 
@@ -134,7 +134,7 @@ for i in li:
 #         print(i)
 #     i=i+1   
 
-lst = ['x', 'y', 'z', 'x', 'y']
+# lst = ['x', 'y', 'z', 'x', 'y']
 
 # for i in range(len(lst)):
 #     if lst[i] == 'y':
@@ -153,4 +153,53 @@ lst = ['x', 'y', 'z', 'x', 'y']
 
 # print(lst[0:3])
 
-print(lst[2,4])
+# print(lst[2,4])
+
+
+# lst = [2,3,2,4,3,5,3,4,8,5,5,3,4]
+# lst1=[]
+
+
+# for i in lst:
+#     if i not in lst1:
+#         lst1.append(i)
+# print(lst1)        
+
+
+# lst.sort()
+# tar = 8
+# i=0
+# j=len(lst)-1
+# sum =0
+# while (i<j):
+#     sum = lst[i] + lst[j]
+#     if(sum==tar):
+#         print(lst[i],lst[j])
+#         break    
+#     elif(sum>tar):
+#         j =j-1
+#     else:
+#         i =i +1
+
+# for i in lst:
+#     for j in range(i+1,len(lst)):
+#         sum = lst[i] + lst[j]
+#         if(sum==tar):
+#             print(i,j)
+        
+lst =[1,2,3,4,5]
+nlst =[]
+sum=0
+for i in range(len(lst)):
+    sum +=lst[i]
+    nlst.append(sum)
+print(nlst)
+    
+lst1 = [1,2,0,3,0,4,0,3,0]    
+
+for i in lst1:
+    if i==0:
+        lst1.append(0)
+        lst1.remove(i)
+         
+print(lst1)
