@@ -27,10 +27,19 @@
 # print(sum(4))    
 
 
-def print_rev(n):
-    if n==6:
-        return
-    print_rev(n+1)
-    print(n,end=' ')
+# def print_rev(n):
+#     if n==6:
+#         return
+#     print_rev(n+1)
+#     print(n,end=' ')
 
-print_rev(1)
+# print_rev(1)
+
+def print_evn(n):
+    if n==0:
+        return
+    print_evn(n-1)
+    if n%2==0:
+       print(n,end=' ')
+
+print_evn(11)
