@@ -187,19 +187,23 @@
 #         if(sum==tar):
 #             print(i,j)
         
-lst =[1,2,3,4,5]
-nlst =[]
-sum=0
-for i in range(len(lst)):
-    sum +=lst[i]
-    nlst.append(sum)
-print(nlst)
+# lst =[1,2,3,4,5]
+# nlst =[]
+# sum=0
+# for i in range(len(lst)):
+#     sum +=lst[i]
+#     nlst.append(sum)
+# print(nlst)
     
-lst1 = [1,2,0,3,0,4,0,3,0]    
+# lst1 = [1,2,0,3,0,4,0,3,0]    
 
-for i in lst1:
-    if i==0:
-        lst1.append(0)
-        lst1.remove(i)
+# for i in lst1:
+#     if i==0:
+#         lst1.append(0)
+#         lst1.remove(i)
          
-print(lst1)
+# print(lst1)
+lst = ["Riya","Rohit","ram"]
+for i in lst:
+    if 'a' in i:
+        print(i)
