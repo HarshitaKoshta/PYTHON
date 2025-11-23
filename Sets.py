@@ -50,7 +50,7 @@ lst = ['hello', 'hii', 'hmm', 'harshita']
 common = set(lst[0])
 print(common)
 
-for i in range(1,len(lst)-1):
+for i in lst[1:]:
     common = common.intersection(set(i))
 
 print("Common characters:", common)

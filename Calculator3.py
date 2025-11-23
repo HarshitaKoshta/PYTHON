@@ -1,17 +1,13 @@
-import math
-
-a,s,b = input().strip()
-a = int(a)
-b = int(b)
-if(s=='+'):
-    r = a+b
-elif(s == '*'):
-    r=a*b
-elif(s == '-'):
-    r=a-b    
-elif(s=='/'):
-    r =int(a)//int(b) 
-     
-
-print(r)
-
+exp = input()
+if '+' in exp:
+    A,B = exp.split('+')
+    print(int(A) + int(B))
+elif '-' in exp:  
+    A,B = exp.split('-')
+    print(int(A) - int(B))  
+elif '*' in exp:  
+    A,B = exp.split('*')
+    print(int(A) * int(B))     
+elif '/' in exp:  
+    A,B = exp.split('/')
+    print(int(A) // int(B))     
