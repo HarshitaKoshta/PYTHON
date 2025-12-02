@@ -81,7 +81,7 @@ b = np.array([True,False,True,False])
 print(b.dtype)
 
 s = np.array(['Ram','Robert','Rahim'])
-print(s.dtype)
+print(s.dtype)   #unicode string ,6 maximum  word  size
 
 a = np.arange(10)
 print(a[3])
@@ -121,3 +121,24 @@ print(np.shares_memory(a,c))
 
 c[3] = 7
 print(a)
+
+a = np.random.randint(0,20,15)
+print(a)
+
+mask = (a%2==0)  #true false
+print(mask)
+
+extract_from_a = a[mask]
+print(extract_from_a)
+
+a[mask] = -1
+print(a)
+
+a= np.arange(0,100,10)
+print(a)
+print(a[[2,4,2,3,2]])   #print value of index
+
+a[[3,4,5,6]] = 1   #assign values
+print(a)
+
+

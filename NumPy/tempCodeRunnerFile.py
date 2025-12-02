@@ -1,3 +1,5 @@
+import numpy as np
 
-# l = range(1000)
-# print(%timeit (i**2 for i in l))     
+a = np.array([1,2,3,4])
+print(a+1)   #vectroization
+print(a**2)

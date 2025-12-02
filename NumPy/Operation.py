@@ -72,4 +72,8 @@ print(x.mean())
 print(np.median(x))
 print(np.median(y,axis=-1))  #last axis
 print(x.std())
+# 1.calulate mean 2.c= no-mean 3. square of (c) then total 4.population variance
 
+#load data into numpy array obj
+data = np.loadtxt('populations.txt')
+print(data)
