@@ -1,0 +1,6 @@
+s = input()
+
+for i in s:
+    if i == '\\': 
+        break
+    print(i, end="")
