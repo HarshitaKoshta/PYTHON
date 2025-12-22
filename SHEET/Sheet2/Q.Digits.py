@@ -1,8 +1,12 @@
 n = int(input())
-nums = list(map(int,input().split()))
 
-for i in range(nums):
-    print("")
+for i in range(n):
+    k = input().strip()
+    for i in range(len(k)-1, -1, -1):
+        print(k[i],end=" ")
+    print()    
+
+    
 
 
     
