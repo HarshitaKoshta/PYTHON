@@ -1,7 +1,17 @@
-a,b = map(int,input().split())
+a, b = map(int, input().split())
 
-for i in range(a,b+1):
-    if i not in ('4','7'):
-        print("-1")
-    else:   
-        print(i,end=" ")
+found = False
+
+for num in range(a, b+1):
+    s = str(num)
+    lucky = True 
+
+    for ch in s:
+        if ch != '4' and ch != '7':
+            lucky = False
+            break   
+    if lucky:
+        print(num, end=" ")
+        found = True
+if not found:
+    print(-1)
