@@ -1,7 +1,17 @@
 n, a, b = map(int,input().split())
-sum=0
+
+ans =0
+
 for i in  range(1,n+1):
-    if((i>=a or i<=b)):
-        sum +=i
-  
+    sum=0
+    x = i
+    while(x>0):
+        sum += x % 10
+        x = x//10
+    if a<= sum <= b:
+        ans += i
+print(ans)    
+
+
+    
     
