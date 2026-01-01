@@ -1,4 +1,7 @@
-def add(x, y):
+def sum(x, y):
     return x + y
 
-print(add(5, 2))
+x, y = map(int,input().split())
+print(sum(x, y))
+
+
